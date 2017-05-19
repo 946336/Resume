@@ -31,7 +31,7 @@
 
 \def \addressSep {$\diamond$}         % Set default address seperator
 
-% One or two address lines can be specified 
+% One or two address lines can be specified
 \let \@addressone \relax
 \let \@addresstwo \relax
 

@@ -11,9 +11,9 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%----------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 %   PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%----------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 
 \documentclass{resume} % Use the custom resume.cls style
 
@@ -22,55 +22,74 @@
 \usepackage{hyperref}
 
 \name{Wesley Wei} % Your name
-\address{PHYSICAL ADDRESS HERE} % Your address
-%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess
+% \address{新竹市科學園路107向8號5樓之1} % Your address
+\address{Hsinchu, KeXueYuan Road Lane 107 \#8 5F-1} % Your address
 %(optional)
 % Your phone number and email
-\address{617-275-9957 \\ \href{mailto:Wesley.Wei@Tufts.edu}{Wesley.Wei@Tufts.edu} \\
+\address{0918868661 \\ \href{mailto:Wesley.Wei@Tufts.edu}{Wesley.Wei@Tufts.edu} \\
 GitHub: \href{https://github.com/946336}{946336}}
 
 \begin{document}
 
-%----------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 %   WORK EXPERIENCE SECTION
-%----------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 
 % Resume section for work experience, etc
 \begin{rSection}{Experience}
 
 % Subsection for each entry
-\begin{rSubsection}{Employer, location, etc}{Date(s)}{Job title}
-% Additional information
+% \begin{rSubsection}{Employer, location, etc}{Date(s)}{Job title}
+% \item TEXT
+% \end{rSubsection}
 
-\item TEXT
+\begin{rSubsection}{Tufts University, Medford, MA}{September 2015 -
+    Present}{Teaching Assistant - Department of Computer Science}
+
+\item Developed strong communication and problem solving skills while
+    rendering assistance to other students
+
+\end{rSubsection}
+
+\begin{rSubsection}{NSRRC, Hsinchu, Taiwan}{June 2016 - August 2016}{Temporary
+    Position}
+
+\item Resolved technical debt in an existing Python application with the goal
+    of easing future development.
+
+\end{rSubsection}
+
+\begin{rSubsection}{NTHU, Hsinchu, Taiwan}{June 2015 - November 2015}{}
+
+\item Used MATLAB to automate analysis of data for an optical tweezers lab.
 
 \end{rSubsection}
 
 \end{rSection}
 
-%----------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 %   TECHNICAL STRENGTHS SECTION
-%----------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 
 \begin{rSection}{Technical Strengths}
-% \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-% Programming Languages & Python, JavaScript, C/C++, Haskell, LaTeX \\
-% Technologies \& Tools & Django, Node, Express, Vim, Git \& GitHub,
-% Phabricator/Arcanist \\
-% \end{tabular}
-% \smallskip
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Programming Languages & C/C++, Python, Bash/Shell, MATLAB, HTML/CSS, Java \\
+Technologies \& Tools & GNU/Linux, Git \& GitHub, Vim, Qt, Android \\
+\end{tabular}
+\smallskip
 
 \end{rSection}
 
-%----------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 %   EDUCATION SECTION
-%----------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 
 \begin{rSection}{Education}
 
 {\bf Tufts University, Medford, MA} \hfill {Expected May 2018} \\
 Bachelor of Science, Computer Science \\
-GPA 3.2/4.0. \smallskip
+GPA 3.29/4.0. \smallskip
 % {\em {\bf \em Relevant coursework}: Data Structures, Machine Structure \&
 % Assembly, Programming Languages, Algorithms, Advanced Functional Programming,
 % Operating Systems, Machine Learning, Computer Graphics, Computational Theory,
@@ -79,21 +98,31 @@ GPA 3.2/4.0. \smallskip
 
 \end{rSection}
 
-%----------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 %   OTHER ACTIVITIES
-%----------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 
-% \begin{rSection}{Leadership \& Other Activities}
-% Member, Tufts Women in Computer Science, 2012-2014. \\
-% Solo backpacked through eleven countries (December 2007-June 2010). \\
-% Team Captain, NCAA Division III Bowdoin Women's Ice Hockey Team, 2006-2007.\\
-% Team Captain, NCAA Division III Bowdoin Softball Team 2007, Selected
-% All-NESCAC.\\
-% \end{rSection}
+\begin{rSection}{Projects}
 
-%----------------------------------------------------------------------------------------
+\begin{rSubsection}{\href{http://2016.polyhack.tufts.io/}{Tufts Polyhack}}{October 2016}{Snapsassin}
+\item Worked with a team to develop an Android game using a face-recognition
+    API to identify players of the game
+% \item Android application to automate moderation of the game Assassin, using a
+%     face recognition API to confirm “kills.”
+\end{rSubsection}
+
+\begin{rSubsection}{\href{https://idhack16.devpost.com/}{Tufts ID Hack}}{March 2016}{HandSPASMS}
+\item Worked with a team to develop an Android application to enable Doctors
+    to easily remind patients of upcoming appointments via SMS
+% \item Diagnosed request handling errors as part of a team developing an
+%     application to enable doctors to remind patients of upcoming appointments
+\end{rSubsection}
+
+\end{rSection}
+
+%-------------------------------------------------------------------------------
 %   EXAMPLE SECTION
-%----------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 
 %\begin{rSection}{Section Name}
 
@@ -101,7 +130,7 @@ GPA 3.2/4.0. \smallskip
 
 %\end{rSection}
 
-%----------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 
 \end{document}
 
