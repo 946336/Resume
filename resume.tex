@@ -18,7 +18,7 @@
 \documentclass{resume} % Use the custom resume.cls style
 
 % Document margins
-\usepackage[left=0.75in,top=0.3in,right=0.75in,bottom=0.3in]{geometry}
+\usepackage[left=0.75in,top=3cm,right=0.75in,bottom=0.3in]{geometry}
 \usepackage{hyperref}
 
 \name{Wesley Wei} % Your name
@@ -35,6 +35,10 @@ GitHub: \href{https://github.com/946336}{946336}}
 %   WORK EXPERIENCE SECTION
 %-------------------------------------------------------------------------------
 
+\bigskip
+\bigskip
+\bigskip
+
 % Resume section for work experience, etc
 \begin{rSection}{Experience}
 
@@ -47,21 +51,26 @@ GitHub: \href{https://github.com/946336}{946336}}
     Present}{Teaching Assistant - Department of Computer Science}
 
 \item Developed strong communication and problem solving skills while
-    rendering assistance to other students
+    rendering assistance to other students.
+\item Provided guidance to students regarding program architecture and core
+    programming concepts.
 
 \end{rSubsection}
 
 \begin{rSubsection}{NSRRC, Hsinchu, Taiwan}{June 2016 - August 2016}{Temporary
     Position}
 
-\item Resolved technical debt in an existing Python application with the goal
-    of easing future development.
+\item Resolved technical debt in an existing image preprocessing PyQt
+    application with the goal of easing future development.
+\item Added the capability to operate on a subset of available data, greatly
+    speeding up processing of regions of interest within larger data sets.
 
 \end{rSubsection}
 
 \begin{rSubsection}{NTHU, Hsinchu, Taiwan}{June 2015 - November 2015}{}
 
 \item Used MATLAB to automate analysis of data for an optical tweezers lab.
+% \item
 
 \end{rSubsection}
 
@@ -93,7 +102,8 @@ Technologies \& Tools & GNU/Linux, Git \& GitHub, Vim, Qt, Android \\
 
 {\bf Tufts University, Medford, MA} \hfill {Expected May 2018} \\
 Bachelor of Science, Computer Science \\
-GPA 3.29/4.0.
+% Bachelor of Science, Mathematics (Expected) \\
+GPA 3.29/4.0 \smallskip
 % {\em {\bf \em Relevant coursework}: Data Structures, Machine Structure \&
 % Assembly, Programming Languages, Algorithms, Advanced Functional Programming,
 % Operating Systems, Machine Learning, Computer Graphics, Computational Theory,
@@ -101,28 +111,34 @@ GPA 3.29/4.0.
 % \smallskip
 
 % \smallskip
-\bigskip
+% \bigskip
 \end{rSection}
 
 %-------------------------------------------------------------------------------
 %   OTHER ACTIVITIES
 %-------------------------------------------------------------------------------
 
-\begin{rSection}{Projects}
+\begin{rSection}{Projects and Other Activities}
 
-\begin{rSubsection}{\href{http://2016.polyhack.tufts.io/}{Tufts Polyhack}}{October 2016}{Snapsassin}
+\begin{rSubsection}{\href{http://2016.polyhack.tufts.io/}{Polyhack at Tufts}}{October 2016}{Snapsassin}
 \item Worked with a team to develop an Android game using a face-recognition
     API to identify players of the game
+\item Implemented requests to the RESTful facial recognition API, and the
+    interpretation of the results.
 % \item Android application to automate moderation of the game Assassin, using a
 %     face recognition API to confirm “kills.”
 \end{rSubsection}
 
-\begin{rSubsection}{\href{https://idhack16.devpost.com/}{Tufts ID Hack}}{March 2016}{HandSPASMS}
-\item Worked with a team to develop an Android application to enable Doctors
+\begin{rSubsection}{\href{https://idhack16.devpost.com/}{ID Hack at Tufts}}{March 2016}{HandSPASMS}
+\item Worked with a team to develop an Android application to enable doctors
     to easily remind patients of upcoming appointments via SMS
-% \item Diagnosed request handling errors as part of a team developing an
-%     application to enable doctors to remind patients of upcoming appointments
+\item Diagnosed HTTP request handling errors in the application
 \end{rSubsection}
+
+% Is this appropriate?
+% \begin{rSubsection}{Proofreading Academic Manuscripts}{2010 - Present}{}
+% \item Proofread various articles for researchers from NSRRC and NTHU
+% \end{rSubsection}
 
 % \smallskip
 \bigskip
