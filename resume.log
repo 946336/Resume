@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.2.2)  21 MAY 2017 04:21
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.2.2)  21 MAY 2017 04:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -259,14 +259,14 @@ Overfull \hbox (30.0pt too wide) in paragraph at lines 32--32
 [] 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 169.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 168.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 169.
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 169.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 169.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 169.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 168.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 168.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 168.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 168.
  ) 
 Here is how much of TeX's memory you used:
  4777 strings out of 495028
@@ -275,13 +275,13 @@ Here is how much of TeX's memory you used:
  7996 multiletter control sequences out of 15000+600000
  7639 words of font info for 27 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 29i,7n,21p,172b,315s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,6n,21p,172b,315s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resume.pdf (1 page, 75194 bytes).
+Output written on resume.pdf (1 page, 75197 bytes).
 PDF statistics:
  37 PDF objects out of 1000 (max. 8388607)
  28 compressed objects within 1 object stream
