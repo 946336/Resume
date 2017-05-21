@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.2.2)  21 MAY 2017 04:19
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.2.2)  21 MAY 2017 04:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -209,12 +209,12 @@ LaTeX Font Info:    ... okay on input line 32.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(54.2025pt, 505.89pt, 54.2025pt)
-* v-part:(T,H,B)=(43.36243pt, 729.92635pt, 21.68121pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=505.89pt
-* \textheight=729.92635pt
+* h-part:(L,W,R)=(54.2025pt, 489.10287pt, 54.2025pt)
+* v-part:(T,H,B)=(43.36243pt, 780.0032pt, 21.68121pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=489.10287pt
+* \textheight=780.0032pt
 * \oddsidemargin=-18.06749pt
 * \evensidemargin=-18.06749pt
 * \topmargin=-65.90756pt
@@ -222,7 +222,7 @@ LaTeX Font Info:    ... okay on input line 32.
 * \headsep=25.0pt
 * \topskip=11.0pt
 * \footskip=30.0pt
-* \marginparwidth=59.0pt
+* \marginparwidth=50.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
 * \skip\footins=10.0pt plus 4.0pt minus 2.0pt
@@ -259,34 +259,29 @@ Overfull \hbox (30.0pt too wide) in paragraph at lines 32--32
 [] 
  []
 
-
-Overfull \hbox (22.60094pt too wide) in paragraph at lines 86--90
-[][] 
- []
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 167.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 169.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 167.
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 167.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 167.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 167.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 169.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 169.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 169.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 169.
  ) 
 Here is how much of TeX's memory you used:
  4777 strings out of 495028
  71479 string characters out of 6181498
- 154491 words of memory out of 5000000
+ 154521 words of memory out of 5000000
  7996 multiletter control sequences out of 15000+600000
  7639 words of font info for 27 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 29i,6n,21p,172b,315s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,7n,21p,172b,315s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resume.pdf (1 page, 75186 bytes).
+Output written on resume.pdf (1 page, 75194 bytes).
 PDF statistics:
  37 PDF objects out of 1000 (max. 8388607)
  28 compressed objects within 1 object stream
