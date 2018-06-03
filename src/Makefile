@@ -8,3 +8,8 @@ all:
 clean:
 	rm -rf resume.log
 
+.PHONY:
+remove:
+	rm -rf resume.{log,pdf}
+	rm -rf ../resume.pdf
+
