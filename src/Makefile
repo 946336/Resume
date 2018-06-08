@@ -2,6 +2,7 @@
 .PHONY:
 all:
 	pdflatex resume.tex
+	sed 's/\\href{.*}{\([^}]*\)}/\1/g' resume.tex > resume-nolink.tex
 	pdflatex resume-nolink.tex
 	cp resume.pdf resume-nolink.pdf ..
 
