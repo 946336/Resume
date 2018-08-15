@@ -11,7 +11,9 @@ resume-nolink: resume.tex resume.cls
 
 .PHONY:
 export: resume resume-nolink
-	cp resume.pdf resume-nolink.pdf ..
+	cp resume.pdf WesleyWei-resume.pdf
+	cp resume-nolink.pdf WesleyWei-resume-nolink.pdf
+	mv WesleyWei-resume.pdf WesleyWei-resume-nolink.pdf ..
 
 .PHONY:
 clean:
@@ -19,5 +21,5 @@ clean:
 
 .PHONY:
 remove:
-	rm -rf ../resume.pdf ../resume-nolink.pdf
+	rm -rf ../WesleyWei-resume.pdf ../WesleyWei-resume-nolink.pdf
 

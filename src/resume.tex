@@ -35,50 +35,6 @@
 \begin{document}
 
 %-------------------------------------------------------------------------------
-%   WORK EXPERIENCE SECTION
-%-------------------------------------------------------------------------------
-
-% Resume section for work experience, etc
-\begin{rSection}{Experience}
-
-% Subsection for each entry
-% \begin{rSubsection}{Employer, location, etc}{Date(s)}{Job title}
-% \item TEXT
-% \end{rSubsection}
-
-\begin{rSubsection}{Tufts University, Medford, MA}{September 2015 -
-    May 2018}{Teaching Assistant - Department of Computer Science}
-
-\item Developed strong communication skills while providing guidance to
-    students regarding program architecture and core programming concepts.
-
-\end{rSubsection}
-
-\begin{rSubsection}{NSRRC, Hsinchu, Taiwan}{June 2016 - August 2016}{Temporary
-    Assistant}
-
-\item Refactored an existing application with the goal of easing development
-    for future researchers.
-
-\item Extended the application with the capability to operate on subsets of
-    data to speed up processing areas of interest within larger datasets.
-
-\end{rSubsection}
-
-\begin{rSubsection}{NTHU, Hsinchu, Taiwan}{June 2015 - November
-    2015}{Temporary Assistant}
-
-\item Automated analysis of data for an optical tweezers lab using MATLAB,
-    reducing processing times from 20 minutes to a few seconds per data set.
-
-\end{rSubsection}
-
-% \smallskip
-\bigskip
-
-\end{rSection}
-
-%-------------------------------------------------------------------------------
 %   TECHNICAL STRENGTHS SECTION
 %-------------------------------------------------------------------------------
 
@@ -86,12 +42,12 @@
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
 Programming Languages & C, C++, Python, Bash/Shell, MATLAB, \\
-    & HTML/CSS/Javascript, Java \\
-Technologies \& Tools & GNU/Linux, Git, Qt, Django, Android \\
+    & HTML/CSS/Javascript, jQuery, Java \\
+Technologies \& Tools & GNU/Linux, Vim, Git, PyQt \\
 \end{tabular}
 
-% \smallskip
-\bigskip
+\smallskip
+% \bigskip
 \end{rSection}
 
 %-------------------------------------------------------------------------------
@@ -111,7 +67,56 @@ Bachelor of Science, Mathematics
 % \smallskip
 
 \smallskip
-\bigskip
+% \bigskip
+\end{rSection}
+
+%-------------------------------------------------------------------------------
+%   WORK EXPERIENCE SECTION
+%-------------------------------------------------------------------------------
+
+% Resume section for work experience, etc
+\begin{rSection}{Experience}
+
+% Subsection for each entry
+% \begin{rSubsection}{Employer, location, etc}{Date(s)}{Job title}
+% \item TEXT
+% \end{rSubsection}
+
+\begin{rSubsection}{Tufts University, Medford, MA}{September 2015 -
+    May 2018}{Teaching Assistant - Department of Computer Science}
+
+\item Answered students' questions regarding assignments and topics covered in
+    class.
+
+\item Graded design documents for class assignments.
+
+\end{rSubsection}
+
+\begin{rSubsection}{NSRRC, Hsinchu, Taiwan}{June 2016 - August 2016}{Temporary
+    Assistant}
+
+\item Refactored a Python/PyQt based frontend for a Linux based image
+    processing backend with the goal of easing future development and the
+    addition of new features.
+
+\item Added the capability to operate on subsets of data, letting the
+    application to load a fraction of thousands of images and operate much
+    faster.
+
+\end{rSubsection}
+
+\begin{rSubsection}{NTHU, Hsinchu, Taiwan}{June 2015 - November
+    2015}{Temporary Assistant}
+
+\item Wrote a MATLAB script automating data analysis, replacing manual
+    calculations involving ORIGIN and Microsoft Excel, cutting processing time
+    from 20 minutes to a few seconds per data set.
+
+\end{rSubsection}
+
+\smallskip
+% \bigskip
+
 \end{rSection}
 
 %-------------------------------------------------------------------------------
@@ -119,6 +124,46 @@ Bachelor of Science, Mathematics
 %-------------------------------------------------------------------------------
 
 \begin{rSection}{Projects}
+
+\begin{rSubsection}
+    {\href{https://github.com/946336/The-Worst-REPL}{REPL}}
+    {June 2018 - Present}{Hosted on Github}
+
+\item REPL is a python framework for embedding a shell into an application,
+    providing a simple way to bind python code to textual commands.
+
+\end{rSubsection}
+
+\begin{rSubsection}
+    {\href{https://composte.me}{Composte}}
+    {Fall 2017}{Hosted on GitHub}
+
+\item Composte is a Linux based client-server application that facilitates
+    real-time, collaborative editing of sheet music.
+
+\item Implemented network foundation using ZeroMQ, serverside storage using
+    SQLite, REPL for user interaction and scripting, and encryption stubs.
+
+\item Composte includes a PyQt GUI developed by a team member, and a music
+    backend based on the music21 package, developed by another team member.
+
+\end{rSubsection}
+
+\begin{rSubsection}
+    {\href{https://www.questionablebattleship.com/}{Questionable Battleship}}
+    {Summer 2017 - Present}{Hosted on GitLab}
+
+\item Multiplayer Battleship over websockets. Available at
+    \href{https://questionablebattleship.com/simple}{questionablebattleship.com/simple}.
+
+\item Developed simple web-based UI using Javascript/jQuery.
+
+\item Developed backend server in C++, relying on the following libraries:
+    crossguid, doctest, json, spdlog, tclap, websocketpp, cppzmq,
+    libicu. The server uses worker processes to manage its state and ZeroMQ
+    for IPC.
+
+\end{rSubsection}
 
 % \begin{rSubsection}
 %   {\href{https://www.cap-tal.com} {Cap-Tal}}
@@ -129,44 +174,21 @@ Bachelor of Science, Mathematics
 
 % \end{rSubsection}
 
-\begin{rSubsection}
-    {\href{https://composte.me}{Composte}}
-    {Fall 2017}{Backend Developer}
+% \begin{rSubsection}
+%     {\href{http://2016.polyhack.tufts.io/}{Polyhack at Tufts}}
+%     {October 2016}{Hosted on GitHub}
 
-\item Developed network foundation on top of ZeroMQ that enabled users to
-    collaborate in real-time.
+% \item Snapsassin is a Java-based Android app using facial recognition to play
+%     the game "Assassin." Game state is stored in the cloud in a Firebase
+%     database.
 
-\item Implemented shell-like REPL for client-side scripting.
+% \item Used Volley to implement wrapper methods around Microsoft's Facial
+%     Recognition API in order to determine whether or not the correct player
+%     appeared in photos.
 
-\end{rSubsection}
-
-\begin{rSubsection}
-    {\href{https://www.questionablebattleship.com/}{Questionable Battleship}}
-    {Summer 2017 - Present}{Project Lead}
-
-\item Led the development of a Battleship game and proposed future extensions to
-    enable on-the-fly rule tweaking.
-
-\item Designed and implemented the backend server application for the game and
-    the protocol.
-
-\item Developed a simple browser based frontend for the game.
-
-\end{rSubsection}
-
-\begin{rSubsection}
-    {\href{http://2016.polyhack.tufts.io/}{Polyhack at Tufts}}
-    {October 2016}{Team Snapsassin (Second Place)}
-
-\item Worked with a team to develop an Android game using a face-recognition
-    API to identify players of the game.
-
-\item Implemented requests to the RESTful facial recognition API, and the
-    interpretation of the results.
-
-% \item Android application to automate moderation of the game Assassin, using a
-%     face recognition API to confirm “kills.”
-\end{rSubsection}
+% % \item Android application to automate moderation of the game Assassin, using a
+% %     face recognition API to confirm “kills.”
+% \end{rSubsection}
 
 % \begin{rSubsection}
 %     {\href{https://idhack16.devpost.com/}{ID Hack at Tufts}}
