@@ -41,9 +41,8 @@
 \begin{rSection}{Technical Strengths}
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Programming Languages & C, C++, Python, Bash/Shell, MATLAB, \\
-    & HTML/CSS/Javascript, jQuery \\
-Technologies \& Tools & GNU/Linux, Vim, Git, PyQt \\
+Programming Languages & C, C++, Python, Bash/Shell, C\#, HTML/CSS/Javascript \\
+Technologies \& Tools & GNU/Linux, Vim, Git \\
 \end{tabular}
 
 \smallskip
@@ -88,31 +87,32 @@ Bachelor of Science, Mathematics
 \item Answered students' questions regarding assignments and topics covered in
     class.
 
-\item Graded design documents for class assignments.
+\item Graded student design documents and provided feedback on document
+    structure, as well as commenting on program design when necessary.
 
 \end{rSubsection}
 
-\begin{rSubsection}{NSRRC, Hsinchu, Taiwan}{June 2016 - August 2016}{Temporary
-    Assistant}
+% \begin{rSubsection}{NSRRC, Hsinchu, Taiwan}{June 2016 - August 2016}{Temporary
+%     Assistant}
 
-\item Refactored a Python/PyQt based frontend for a Linux based image
-    processing backend with the goal of easing future development and the
-    addition of new features.
+% \item Refactored a Python/PyQt based frontend for a Linux based image
+%     processing backend with the goal of easing future development and the
+%     addition of new features.
 
-\item Added the capability to operate on subsets of data, letting the
-    application to load a fraction of thousands of images and operate much
-    faster.
+% \item Added the capability to operate on subsets of data, letting the
+%     application to load a fraction of thousands of images and operate much
+%     faster.
 
-\end{rSubsection}
+% \end{rSubsection}
 
-\begin{rSubsection}{NTHU, Hsinchu, Taiwan}{June 2015 - November
-    2015}{Temporary Assistant}
+% \begin{rSubsection}{NTHU, Hsinchu, Taiwan}{June 2015 - November
+%     2015}{Temporary Assistant}
 
-\item Wrote a MATLAB script automating data analysis, replacing manual
-    calculations involving ORIGIN and Microsoft Excel, cutting processing time
-    from 20 minutes to a few seconds per data set.
+% \item Wrote a MATLAB script automating data analysis, replacing manual
+%     calculations involving ORIGIN and Microsoft Excel, cutting processing time
+%     from 20 minutes to a few seconds per data set.
 
-\end{rSubsection}
+% \end{rSubsection}
 
 \smallskip
 % \bigskip
@@ -125,15 +125,43 @@ Bachelor of Science, Mathematics
 
 \begin{rSection}{Projects}
 
+\begin{rSubsection} {Time Series Visualization Utility}
+    {August 2018 - September 2018}{}
+
+    \item Used C\# and DevExpress to create a program to graph time series data
+        and export charts as images with precisely controlled dimensions.
+
+    \item Designed a data format based on CSV to carry both data and display
+        metadata, including color, line weight, and line style.
+
+\end{rSubsection}
+
+\begin{rSubsection}{PDF Report Generator}{October 2018}{}
+
+    \item Automated report generation with Python, pypyodbc, and PyFPDF. Reports
+        include numerous charts produced using Matplotlib.
+
+\end{rSubsection}
+
+\begin{rSubsection}{Dask Cluster Setup}{October 2018}{}
+
+\item Automated setup of Linux virtual machines intended for parallel computing
+    using Dask using shell scripts and cloud-init.
+
+\end{rSubsection}
+
 \begin{rSubsection}
     {\href{https://github.com/946336/The-Worst-REPL}{REPL}}
-    {June 2018 - Present}{Hosted on Github}
+    {June 2018 - September 2018}{Hosted on Github}
 
 \item REPL is a python framework for embedding a shell into an application,
     providing a simple way to bind python code to textual commands.
 
-\item REPL mimics some of the conveniences of a POSIX shell; it provides pipes,
-    functions, flow control, aliases, and more.
+\item REPL mimics some of the conveniences of a POSIX shell, providing pipes,
+    functions, flow control, aliases, and more, allowing developers and end
+    users to quickly create larger programs by composing existing commands.
+
+\item REPL supports configuration through startup dotfiles.
 
 \end{rSubsection}
 
@@ -146,19 +174,20 @@ Bachelor of Science, Mathematics
     music.
 
 \item Implemented network foundation using ZeroMQ, serverside storage using
-    SQLite, REPL for user interaction and scripting, and encryption stubs.
+    SQLite, an ad hoc shell for user interaction and scripting, and encryption
+    stubs.
 
-\item Composte includes a PyQt GUI developed by a team member, and a music
-    backend based on the music21 package, developed by another team member.
+\item Composte includes a PyQt GUI developed by one team member and a music
+    backend developed by another team member, based on the music21 package.
 
 \end{rSubsection}
 
 \begin{rSubsection}
-    {\href{https://www.questionablebattleship.com/}{Questionable Battleship}}
-    {Summer 2017 - Present}{Hosted on GitLab}
+    {\href{https://www.questionablebattleship.com/simple}{Questionable Battleship}}
+    {Summer 2017}{Hosted on GitLab}
 
-\item Multiplayer Battleship over websockets. Available at
-    \href{https://questionablebattleship.com/simple}{questionablebattleship.com/simple}.
+% \item Multiplayer Battleship over websockets. Available at
+%     \href{https://questionablebattleship.com/simple}{questionablebattleship.com/simple}.
 
 \item Developed simple web-based UI using Javascript and jQuery.
 
